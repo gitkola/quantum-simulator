@@ -15,10 +15,10 @@ const add = ([ar, ai]: Complex, [br, bi]: Complex): Complex => [
   ar + br,
   ai + bi,
 ];
-const sub = ([ar, ai]: Complex, [br, bi]: Complex): Complex => [
-  ar - br,
-  ai - bi,
-];
+// const sub = ([ar, ai]: Complex, [br, bi]: Complex): Complex => [
+//   ar - br,
+//   ai - bi,
+// ];
 const mul = ([ar, ai]: Complex, [br, bi]: Complex): Complex => [
   ar * br - ai * bi,
   ar * bi + ai * br,
